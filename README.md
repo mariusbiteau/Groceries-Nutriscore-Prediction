@@ -7,9 +7,8 @@ We will use the Open Food Fact dataset.
 (https://world.openfoodfacts.org/data).
 
 #### Data Description
-This dataset have each country as a data point (227 countries in total), and for each, we have 20 columns, each column represents a different aspect or measure of the specific country. 
 
-The dataset have each product as a data point (1443749 products in total), and for each, we have 181 columns which are separated in five sections :
+Thi dataset have each product as a data point (1443749 products in total), and for each, we have 181 columns which are separated in five sections :
 
 - General information on the product datasheet: name, date of modification, etc.
 - A set of tags: product category, location, origin, etc.
