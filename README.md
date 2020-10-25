@@ -33,4 +33,6 @@ Mean Absolute Error (MAE): 0.1018677303906949
 Root mean squared error (RMSE): 0.4292078235549481
 R-squared Score (R2_Score): 0.8974587660695692
 
-![](/Prediction_performance.png)
+![](/Before_After_Predictions.png)
+
+![](/Feature_Importances.png)
