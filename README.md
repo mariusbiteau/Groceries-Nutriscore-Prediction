@@ -8,7 +8,7 @@ We will use the Open Food Fact dataset.
 
 #### Data Description
 
-Thi dataset have each product as a data point (1443749 products in total), and for each, we have 181 columns which are separated in five sections :
+This dataset have each product as a data point (1443749 products in total), and for each, we have 181 columns which are separated in five sections :
 
 - General information on the product datasheet: name, date of modification, etc.
 - A set of tags: product category, location, origin, etc.
@@ -18,7 +18,9 @@ Thi dataset have each product as a data point (1443749 products in total), and f
 
 #### Project Goal
 
-It is not yet mandatory for the manufacturers to display the nutriscore on each grocery product, moreover the dataset being supplied by individuals, the nutriscore is not always noted and the information filled in are often restricted to the barcode and the name of the products and to the nutrients on the back of the package. 
+It is not yet mandatory for the manufacturers to display the nutriscore on each grocery product, moreover the dataset being supplied by individuals, the nutriscore is not always noted and the information filled in are often restricted to the barcode and the name of the products and to the nutrients on the back of the package.
+
+Therefore around 50% of the products of the dataset does not have a nutriscore information.
 
 The goal of the project is to understand this dataset, get some insights from it, developp a cleaning algorithm and finally to train a model that can predict the nutriscore for each product in the way of the Yuka application.
 
