@@ -18,6 +18,8 @@ This dataset have each product as a data point (1443749 products in total), and 
 
 #### Project Goal
 
+79% of French people are willing to buy a more expensive food product if it contains premium ingredients. (Source: Opinion Way for the National Association of Food Industries (ANIA))
+
 It is not yet mandatory for the manufacturers to display the nutriscore on each grocery product, moreover the dataset being supplied by individuals, the nutriscore is not always noted and the information filled in are often restricted to the barcode and the name of the products and to the nutrients on the back of the package.
 
 Therefore around 50% of the products of the dataset does not have a nutriscore information.
@@ -35,6 +37,10 @@ The best prediction performance was acheived using Random Forest regressor, usin
 - Recall : 0.93
 - F1-score : 0.93
 
-![](/Before_After_Predictions.png)
+![](/confusion_matrix.png)
 
 ![](/Feature_Importances.png)
+
+Finally, we note that after the generalization of our model on all the data (data without nutriscore), the proportion of products with a nutriscore of "A" or "B" slightly decreased and on the other hand the products with a nutriscore of "D" or "E" slightly increased which is explained by the fact that the nutriscore is not yet mandatory; consequently, the companies which have products with a bad nutriscore do not have any marketing interest to show it.
+
+![](/Before_After_Predictions.png)
