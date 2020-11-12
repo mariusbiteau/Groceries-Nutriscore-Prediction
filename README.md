@@ -31,9 +31,9 @@ In this project, we used the Open Food Fact dataset to build a nutriscore grade 
 
 The best prediction performance was acheived using Random Forest regressor, using all features in the dataset and without scaling, and resulted in the following metrics:
 
-Mean Absolute Error (MAE): 0.1018677303906949
-Root mean squared error (RMSE): 0.4292078235549481
-R-squared Score (R2_Score): 0.8974587660695692
+- Precision : 0.93
+- Recall : 0.93
+- F1-score : 0.93
 
 ![](/Before_After_Predictions.png)
 
